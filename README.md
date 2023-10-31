@@ -20,4 +20,4 @@ Foram criados testes unitários para a função `encryptThis` para garantir que 
 
 ## Como Executar os Testes
 
-Certifique-se de que o Python está instalado em seu ambiente. Em seguida, execute os testes com o seguinte comando:
+Python 3.4
