@@ -12,19 +12,12 @@ A função `encryptThis` criptografa uma mensagem de texto seguindo as regras es
 
 A função `encryptThis` aceita uma string contendo palavras separadas por espaços e retorna a mensagem criptografada, mantendo a mesma estrutura de palavras separadas por espaços.
 
-## Exemplos
 
-- `encryptThis("Hello")` retorna `'72olle'`.
-- `encryptThis("good")` retorna `'103doo'`.
-- `encryptThis("hello world")` retorna `'104olle 119drlo'`.
 
 ## Testes Unitários
 
-Foram criados testes unitários para a função `encryptThis` para garantir que ela funcione corretamente em diferentes cenários. Você pode encontrar os testes no arquivo `testEncryptThis.py`.
+Foram criados testes unitários para a função `encryptThis` para garantir que ela funcione corretamente em diferentes cenários. Você pode encontrar os testes no arquivo `test.py`.
 
 ## Como Executar os Testes
 
 Certifique-se de que o Python está instalado em seu ambiente. Em seguida, execute os testes com o seguinte comando:
-
-```bash
-python testEncryptThis.py
