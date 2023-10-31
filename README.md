@@ -1,1 +1,30 @@
-# Criptografia_1_Python
+# Criptografia de Palavras
+
+Este é um projeto de exemplo que demonstra como criar uma função de criptografia de palavras em Python, seguindo as regras especificadas.
+
+## Descrição
+
+A função `encryptThis` criptografa uma mensagem de texto seguindo as regras especificadas:
+- O primeiro caractere de cada palavra é convertido em seu código ASCII.
+- O segundo caractere da palavra é trocado com o último caractere.
+
+## Funcionamento
+
+A função `encryptThis` aceita uma string contendo palavras separadas por espaços e retorna a mensagem criptografada, mantendo a mesma estrutura de palavras separadas por espaços.
+
+## Exemplos
+
+- `encryptThis("Hello")` retorna `'72olle'`.
+- `encryptThis("good")` retorna `'103doo'`.
+- `encryptThis("hello world")` retorna `'104olle 119drlo'`.
+
+## Testes Unitários
+
+Foram criados testes unitários para a função `encryptThis` para garantir que ela funcione corretamente em diferentes cenários. Você pode encontrar os testes no arquivo `testEncryptThis.py`.
+
+## Como Executar os Testes
+
+Certifique-se de que o Python está instalado em seu ambiente. Em seguida, execute os testes com o seguinte comando:
+
+```bash
+python testEncryptThis.py
