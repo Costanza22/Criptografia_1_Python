@@ -16,7 +16,7 @@ A função `encryptThis` aceita uma string contendo palavras separadas por espa�
 
 ## Testes Unitários
 
-Foram criados testes unitários para a função `encryptThis` para garantir que ela funcione corretamente em diferentes cenários. Você pode encontrar os testes no arquivo `test.py`.
+Foram criados testes unitários para a função `encryptThis` para garantir que ela funcione corretamente em diferentes cenários. Você pode encontrar os testes no arquivo `teste.py`.
 
 ## Como Executar os Testes
 
